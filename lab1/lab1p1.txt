@@ -1,0 +1,27 @@
+5 GDB debugger commands
+
+
+"run"
+How I used it: run
+Why I used it: To stat debugging i first have to run the program
+What it does: Start running the program and it will stop when it reaches a breakpoint or the end of the program
+
+"break"
+How I used it: Break 12
+Why I used it: I wanted to be able to pause the program and inspect what is going on at a certain point so I used GDB to stop th eprogram
+What it does: Break will stop the code at a certain line
+
+"step"
+How I used it: step
+Why I used it: As the program execution paused at the breakpoint, I used the step command to step through the code line by line. This helped me trace the program's execution
+What it does: Runs the program line by line, pausing at after each line.
+
+"print"
+How I used it: print I
+Why I used it: I wanted to see if the variable i in the for loop was going up properly
+What it does: It inspects the value of a variable. This was helpful for understanding the state of variables at a specific point in the program.
+
+"continue"
+How I used it: continue
+Why I used it: Once I was done analyzing the code at the break point, I used continue to continue running the program until the next breakpoint.This allowed me to skip over parts of the code that were working correctly and focus on analyzing the areas I want.
+What it does: Resume program execution until the next breakpoint or end of program
